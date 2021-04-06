@@ -8,7 +8,7 @@ const Sidebar = ({isOpen, toggle}) => {
         <CloseIcon/>
       </Icon>
       <SidebarWrapper>
-        <SidebarMenu>
+        <SidebarMenu to='#'>
           <SidebarLink to="about" onClick={toggle}>
             Sobre
           </SidebarLink>

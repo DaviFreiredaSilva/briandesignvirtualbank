@@ -30,7 +30,7 @@ function HeroSection() {
             onMouseLeave={onHover}
             primary="true"
             dark="true"
-            >Começar {hover ? <ArrowForward/> : <ArrowRight/>}</Button>
+            >Inscrever-se {hover ? <ArrowForward/> : <ArrowRight/>}</Button>
         </HeroBtnWrapper>
       </HeroContent>
     </HeroContainer>
