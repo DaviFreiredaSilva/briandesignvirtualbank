@@ -12,7 +12,7 @@ function HeroSection() {
   }
 
   return (
-    <HeroContainer id="home">
+    <HeroContainer id='home'>
       <HeroBg>
         <VideBg autoPlay loop muted src={Video} type='video/mp4'/>
       </HeroBg>
@@ -30,6 +30,11 @@ function HeroSection() {
             onMouseLeave={onHover}
             primary="true"
             dark="true"
+            smooth={true} 
+            duration={500}
+            spy={true} 
+            exact='true' 
+            offset={-80}
             >Inscrever-se {hover ? <ArrowForward/> : <ArrowRight/>}</Button>
         </HeroBtnWrapper>
       </HeroContent>
